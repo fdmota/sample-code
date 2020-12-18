@@ -1,3 +1,5 @@
+package src.main.java;
+
 public enum LoggingLevel {
   PENDING(1),
   PROCESSING(2),
@@ -11,5 +13,9 @@ public enum LoggingLevel {
 
   public int code() {
     return i;
+  }
+
+  public boolean isPending() {
+    return this == PENDING;
   }
 }

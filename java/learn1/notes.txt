@@ -1,0 +1,4 @@
+java -classpath "/home/filipe/.config/Code/User/workspaceStorage/bfead2c8000e4148e90e1eee369e1fbc/redhat.java/jdt_ws/learn1_c3530c5/bin:/home/filipe/Personal/sample-code/java/learn1/libs/slf4j-api-1.7.28.jar:/home/filipe/Personal/sample-code/java/learn1/libs/logback-classic-1.0.13.jar:/home/filipe/Personal/sample-code/java/learn1/libs/logback-core-1.0.13.jar" src.main.java.zoo.Zoo
+
+javac src/main/java/zoo/Zoo.java
+java -Xmx128M -Xms16M src/main/java/zoo/Zoo
